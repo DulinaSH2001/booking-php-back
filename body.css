@@ -1,0 +1,83 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F3FDFE;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.left, .right {
+    width: 48%; 
+}
+
+.left {
+    margin-right: 2%; 
+}
+
+.right {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    color: #333;
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="text"],
+input[type="number"],
+textarea {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px; 
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 30px;
+    background-color: #afd6f8;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s
+}
+
+button:hover {
+    background-color: #afd6f8;
+}
+
+#availabilityIndicator {
+    margin-bottom: 20px;
+}
+
+#resourceInfo h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#resourceInfo p {
+    margin: 5px 0;
+    color: #666;
+}
